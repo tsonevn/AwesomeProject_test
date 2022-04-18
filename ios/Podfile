@@ -21,6 +21,8 @@ target 'AwesomeProject' do
 
   pod 'react-native-leanplum', :path => '../node_modules/@leanplum/react-native-sdk'
 
+  pod 'RNCPushNotificationIOS', :path => '../node_modules/@react-native-community/push-notification-ios'
+
   target 'AwesomeProjectTests' do
     inherit! :complete
     # Pods for testing
